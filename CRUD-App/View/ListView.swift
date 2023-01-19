@@ -54,7 +54,7 @@ struct CaloriesView: View {
             .sheet(isPresented: $showingSheet){
                 AddItemView()
             }
-            .navigationTitle("Calories Today")
+            .navigationTitle("My Calories")
         }
     }
     private func deleteFood(offsets: IndexSet) {

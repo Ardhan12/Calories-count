@@ -17,6 +17,7 @@
 		BE1A88F02979161D001AE5FE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A88EF2979161D001AE5FE /* DataController.swift */; };
 		BE1A88F429791F2E001AE5FE /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A88F329791F2E001AE5FE /* TimeFormatting.swift */; };
 		BE1A88F62979290E001AE5FE /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A88F52979290E001AE5FE /* EditItemView.swift */; };
+		BE3447412982D99600141834 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3447402982D99600141834 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BE1A88EF2979161D001AE5FE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		BE1A88F329791F2E001AE5FE /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
 		BE1A88F52979290E001AE5FE /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
+		BE3447402982D99600141834 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				BE1A88E72978F3BC001AE5FE /* ListView.swift */,
 				BE1A88E92978FF62001AE5FE /* AddItemView.swift */,
 				BE1A88F52979290E001AE5FE /* EditItemView.swift */,
+				BE3447402982D99600141834 /* Profile.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				BE1A88EE2979157B001AE5FE /* FoodModel.xcdatamodeld in Sources */,
 				BE1A88F62979290E001AE5FE /* EditItemView.swift in Sources */,
 				BE1A88DA2978F383001AE5FE /* CRUD_AppApp.swift in Sources */,
+				BE3447412982D99600141834 /* Profile.swift in Sources */,
 				BE1A88E82978F3BC001AE5FE /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

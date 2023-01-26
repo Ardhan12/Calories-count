@@ -9,8 +9,20 @@ import SwiftUI
 
 struct Profile: View {
     var body: some View {
-        VStack{
-            Text("ini profile page")
+        VStack(alignment: .center) {
+            Image(systemName: "scribble.variable")
+                .resizable()
+                .frame(width: 150, height: 150)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius: 10)
+            
+            Text("Name")
+                .font(.title)
+                .padding(.bottom, 10)
+            
+            Text("Detail Text")
+                .font(.subheadline)
         }
     }
 }

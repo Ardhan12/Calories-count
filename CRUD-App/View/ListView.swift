@@ -36,6 +36,18 @@ struct CaloriesView: View {
                         }
                     }.onDelete(perform: deleteFood)
                 }.listStyle(.plain)
+//                .scrollContentBackground(.hidden)
+                .overlay(Group {
+                    if(foods.isEmpty) {
+                        ZStack() {
+                            Color.white.ignoresSafeArea()
+                            VStack{
+                                Image(systemName: "scribble.variable")
+                                Text("Empty List!")
+                            }
+                        }
+                    }
+                })
             }
             
             .toolbar {

@@ -41,9 +41,10 @@ struct CaloriesView: View {
                     if(foods.isEmpty) {
                         ZStack() {
                             Color.white.ignoresSafeArea()
-                            VStack{
+                            VStack(alignment: .center){
                                 Image(systemName: "scribble.variable")
                                 Text("Empty List!")
+                                Text("Tambahkan menu baru di tombol + di sebelah kanan atas").frame(width: 300, height: 50, alignment: .center)
                             }
                         }
                     }
